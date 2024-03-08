@@ -1,0 +1,27 @@
+@use "./reset";
+body {
+  main {
+    .hero {
+      .content {
+        width: 500px;
+        height: 500px;
+        background-color: #000000;
+        .box {
+          div {
+            background-color: aqua;
+            width: 470px;
+            height: 75px;
+            border-radius: 20px;
+            margin-top: 5px;
+          }
+        }
+      }
+      .nav-fixed {
+        background-color: #000000;
+        height: 70px;
+        width: 700px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
